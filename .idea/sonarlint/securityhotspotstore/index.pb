@@ -917,3 +917,17 @@ F
 api-gateway/mvnw,1\9\19cad7b41ca7339efbd3c6404c1bc95e57a10758
 D
 api-gateway/mvnw.cmd,4\e\4e78ccd1f7fc9cfe04c98f2b5dff3904ec2e9bd6
+ƒ
+Sapi-gateway/src/main/java/com/devmh/gateway/configuration/AuthenticationFilter.java,d\d\dd437a28f1c723cbcea336a7ce68ad0ee8684c85
+x
+Hapi-gateway/src/main/java/com/devmh/gateway/service/IdentityService.java,f\6\f6d9a3cda154dbf498d9aa8a214d145edaca36eb
+z
+Japi-gateway/src/main/java/com/devmh/gateway/repository/IdentityClient.java,b\8\b8c413febffde268f6f4430c5a2000f98ddf5e2d
+~
+Napi-gateway/src/main/java/com/devmh/gateway/dto/request/IntrospectRequest.java,7\c\7c978e3bbc4e04e7c1e4d6fa6ef2d7be4c2c33d9
+€
+Papi-gateway/src/main/java/com/devmh/gateway/dto/response/IntrospectResponse.java,c\a\ca06fc753bbfcdae57e30a3fc7a007b26f742130
+x
+Hapi-gateway/src/main/java/com/devmh/gateway/dto/request/ApiResponse.java,0\f\0fb1b72afbca4913b463a478e44b141622221a33
+…
+Uapi-gateway/src/main/java/com/devmh/gateway/configuration/WebClientConfiguration.java,a\7\a74c041e1f98353a1a6cd91211e57dda08914acf

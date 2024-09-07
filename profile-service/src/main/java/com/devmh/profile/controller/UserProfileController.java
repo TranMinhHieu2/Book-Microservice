@@ -10,19 +10,21 @@ import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
+import java.util.List;
+
 @RestController
 @RequiredArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
 public class UserProfileController {
     UserProfileService userProfileService;
 
-    @PostMapping("/users")
-    UserProfileReponse createProfile(@RequestBody ProfileCreationRequest request) {
-        return userProfileService.createProfile(request);
-    }
-
     @GetMapping("/users/{profileId}")
     UserProfileReponse getProfile(@PathVariable String profileId) {
         return userProfileService.getProfile(profileId);
+    }
+
+    @GetMapping("/users")
+    List<UserProfileReponse> getAllProfile(){
+       return userProfileService.getAllProfiles();
     }
 }
